@@ -1,0 +1,3 @@
+[shader-code]
+vertex-source-path   = "Shaders/Code/Surface/GLSL/Floor.vert"
+fragment-source-path = "Shaders/Code/Surface/GLSL/Floor.frag"

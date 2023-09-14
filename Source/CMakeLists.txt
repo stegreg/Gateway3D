@@ -1,0 +1,4 @@
+add_subdirectory(Thirdparty)
+add_subdirectory(Gateway)
+add_subdirectory(Examples)
+add_subdirectory(Application)

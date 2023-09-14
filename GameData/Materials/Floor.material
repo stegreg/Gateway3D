@@ -1,0 +1,31 @@
+[material]
+shader-path = "Shaders/Floor.shader"
+
+[[material.textures]]
+name    = "uBaseColorMap"
+path    = "Textures/Concrete/042C/BaseColor.texture"
+slot    = 0
+
+[[material.textures]]
+name    = "uRoughnessMap"
+path    = "Textures/Concrete/042C/Roughness.texture"
+slot    = 1
+
+[[material.textures]]
+name    = "uNormalMap"
+path    = "Textures/Concrete/042C/Normal.texture"
+slot    = 2
+
+[[material.textures]]
+name    = "uMetallicMap"
+path    = "Textures/Concrete/042C/Metallic.texture"
+slot    = 3
+
+[[material.textures]]
+name    = "uDisplacementMap"
+path    = "Textures/Concrete/042C/Displacement.texture"
+slot    = 4
+
+[[material.constants]]
+name    = "uMapScale"
+value   = [50.0, 50.0]

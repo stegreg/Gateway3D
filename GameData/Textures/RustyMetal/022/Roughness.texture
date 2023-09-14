@@ -1,0 +1,5 @@
+[texture]
+repeat      = [true, true]
+smooth      = true
+[texture.import]
+path        = "Textures/RustyMetal/022/Roughness.jpg.import"

@@ -1,0 +1,3 @@
+[model]
+[model.import]
+path = "Models/Plane.glb.import"

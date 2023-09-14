@@ -1,0 +1,381 @@
+
+[world]
+
+[[world.sim-object]]
+type = "Camera"
+name = "MyMainCamera"
+id = 1
+position = [0.0,5.0,-10.0]
+far-plane = 1000.0
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+fov = 70.0
+near-plane = 0.1
+projection-type = 0
+clear-color = [0.1,0.2,0.3,1.0]
+clear-depth = 0.0
+clear-stencil = 1
+clear-flags = 3
+[[world.sim-object]]
+type = "DirectionalLight"
+name = ""
+id = 2
+color = [0.8,0.7,0.6]
+position = [0.0,0.0,0.0]
+intensity = 0.3
+scale = [1.0,1.0,1.0]
+rotation = [0.707107,0.0,0.0,0.707107]
+[[world.sim-object]]
+type = "PointLight"
+name = ""
+color = [1.0,1.0,1.0]
+id = 3
+intensity = 1.0
+position = [0.0,10.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+range = 100.0
+falloff-factor = 2.0
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Plane.model"
+id = 4
+material-path = "Materials/Floor.material"
+position = [0.0,-2.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Monkey.model"
+name = "MyMonkeyHead"
+material-path = "Materials/BlueSphere.material"
+id = 5
+position = [0.0,5.0,10.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 6
+position = [-21.0,0.0,-21.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 7
+material-path = "Materials/Box.material"
+position = [-21.0,0.0,-14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 8
+material-path = "Materials/Box.material"
+position = [-21.0,0.0,-7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 9
+material-path = "Materials/Box.material"
+position = [-21.0,0.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 10
+position = [-21.0,0.0,7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 11
+position = [-21.0,0.0,14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 12
+position = [-14.0,0.0,-21.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 13
+position = [-14.0,0.0,-14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 14
+material-path = "Materials/Box.material"
+position = [-14.0,0.0,-7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 15
+material-path = "Materials/Box.material"
+position = [-14.0,0.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 16
+material-path = "Materials/Box.material"
+position = [-14.0,0.0,7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 17
+material-path = "Materials/Box.material"
+position = [-14.0,0.0,14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 18
+material-path = "Materials/Box.material"
+position = [-7.0,0.0,-21.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 19
+material-path = "Materials/Box.material"
+position = [-7.0,0.0,-14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 20
+position = [-7.0,0.0,-7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 21
+position = [-7.0,0.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 22
+position = [-7.0,0.0,7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 23
+position = [-7.0,0.0,14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 24
+position = [0.0,0.0,-21.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 25
+position = [0.0,0.0,-14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 26
+position = [0.0,0.0,-7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 27
+position = [0.0,0.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+model-path = "Models/Box.model"
+name = ""
+material-path = "Materials/Box.material"
+id = 28
+position = [0.0,0.0,7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 29
+material-path = "Materials/Box.material"
+position = [0.0,0.0,14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 30
+material-path = "Materials/Box.material"
+position = [7.0,0.0,-21.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 31
+material-path = "Materials/Box.material"
+position = [7.0,0.0,-14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 32
+material-path = "Materials/Box.material"
+position = [7.0,0.0,-7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 33
+material-path = "Materials/Box.material"
+position = [7.0,0.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 34
+material-path = "Materials/Box.material"
+position = [7.0,0.0,7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 35
+material-path = "Materials/Box.material"
+position = [7.0,0.0,14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 36
+material-path = "Materials/Box.material"
+position = [14.0,0.0,-21.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 37
+material-path = "Materials/Box.material"
+position = [14.0,0.0,-14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 38
+material-path = "Materials/Box.material"
+position = [14.0,0.0,-7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 39
+material-path = "Materials/Box.material"
+position = [14.0,0.0,0.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 40
+material-path = "Materials/Box.material"
+position = [14.0,0.0,7.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+[[world.sim-object]]
+type = "ModelInstance"
+name = ""
+model-path = "Models/Box.model"
+id = 41
+material-path = "Materials/Box.material"
+position = [14.0,0.0,14.0]
+scale = [1.0,1.0,1.0]
+rotation = [0.0,0.0,0.0,1.0]
+

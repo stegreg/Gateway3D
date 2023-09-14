@@ -1,0 +1,5 @@
+[texture]
+repeat      = [true, true]
+smooth      = true
+[texture.import]
+path        = "Textures/RoofingTiles/006/Normal.jpg.import"

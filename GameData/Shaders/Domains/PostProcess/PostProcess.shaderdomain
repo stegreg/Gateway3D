@@ -1,0 +1,6 @@
+[shader-domain]
+
+[[shader-domain.sub-domains]]
+name                 = "main-post-process"
+vertex-source-path   = "Shaders/Domains/PostProcess/GLSL/PostProcess.vert"
+fragment-source-path = "Shaders/Domains/PostProcess/GLSL/PostProcess.frag"

@@ -1,0 +1,5 @@
+[texture]
+repeat      = [true, true]
+smooth      = true
+[texture.import]
+path        = "Textures/Bricks/064/Roughness.jpg.import"

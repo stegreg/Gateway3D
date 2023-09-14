@@ -1,0 +1,2 @@
+[material]
+shader-path = "Shaders/MyPostProcess.shader"

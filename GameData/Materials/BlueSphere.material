@@ -1,0 +1,6 @@
+[material]
+shader-path = "Shaders/Sphere.shader"
+
+[[material.constants]]
+name  = "uBaseColor"
+value = [0.0, 0.0, 1.0]

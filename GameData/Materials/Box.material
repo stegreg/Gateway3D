@@ -1,0 +1,7 @@
+[material]
+shader-path = "Shaders/Cube.shader"
+
+[[material.textures]]
+name    = "uBaseColorMap"
+path    = "Textures/Wood/007/BaseColor.texture"
+slot    = 0

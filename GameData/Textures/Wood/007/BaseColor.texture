@@ -1,0 +1,5 @@
+[texture]
+repeat      = [true, true]
+smooth      = true
+[texture.import]
+path        = "Textures/Wood/007/BaseColor.jpg.import"

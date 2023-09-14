@@ -1,0 +1,21 @@
+[shader-domain]
+
+# [[shader-domain.sub-domains]]
+# name                    = "shadow"
+# vertex-source-path      = "Shaders/Domains/Surface/GLSL/Shadow.vert"
+# fragment-source-path    = "Shaders/Domains/Surface/GLSL/Shadow.frag"
+# defines                 = ["MY_DEFINE_1"]
+
+# pass used to gather direct lighting into voxels
+# [[shader-domain.sub-domains]]
+# name                    = "light-gather"
+# vertex-source-path      = "Shaders/Domains/Surface/GLSL/LightGather.vert"
+# fragment-source-path    = "Shaders/Domains/Surface/GLSL/LightGather.frag"
+# defines                 = ["MY_DEFINE_1"]
+
+[[shader-domain.sub-domains]]
+name                    = "light"
+vertex-source-path      = "Shaders/Domains/Surface/GLSL/PBR.vert"
+fragment-source-path    = "Shaders/Domains/Surface/GLSL/PBR.frag"
+defines                 = ["MY_DEFINE_1"]
+

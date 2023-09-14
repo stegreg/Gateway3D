@@ -1,0 +1,5 @@
+[texture]
+repeat      = [true, true]
+smooth      = true
+[texture.import]
+path        = "Textures/Marble/016/BaseColor.jpg.import"
