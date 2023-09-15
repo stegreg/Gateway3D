@@ -9,5 +9,6 @@ Some of the main features, at the current time of writing, are:
 - Forward rendering with cluster shading (although light cluster injection still happens on the cpu)
 - PBR materials, with customizable shaders.
 - Normal mapping and Parallax Occlusion Mapping.
+- Basic Dear ImGui / RmlUi implementations.
 ---
 ![Screenshot representing one of the available examples](/Images/img1.png)
